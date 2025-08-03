@@ -180,6 +180,20 @@ input{
   /* padding-top: 150px; */
   /* align-items: center; */
 }
+
+.right1{
+  background-color: rgb(73, 223, 223);
+  /* height: 50vh; */
+  width:500px;
+  margin: 0;
+  padding: 30;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 150px; */
+  align-items: center;
+  text-align: center;
+}
+
 .form{
   /* height: 50vh; */
   width:500px;
@@ -263,3 +277,97 @@ input{
 .whatsapp-icon:hover {
   transform: scale(1.1);
 }
+
+
+.navbar_login_user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.navbar_crud_links {
+  display: flex;
+  gap: 12px;
+  padding: 10px 20px;
+  background-color: #e9ecef;
+}
+
+.nav_button {
+  background-color: rgb(47, 192, 214);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.nav_button:hover {
+  background-color: rgb(117, 171, 228);
+  cursor: pointer;
+}
+
+
+.form_wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.form_wrapper h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: rgb(51, 51, 51);
+}
+
+.vendor_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.vendor_form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.vendor_form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(204, 204, 204, 0.896);
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.vendor_form button {
+  background-color: rgb(40, 167, 69);
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.vendor_form button:hover {
+  background-color: rgb(33, 136, 56);
+}
+
+.fetchbtn{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+

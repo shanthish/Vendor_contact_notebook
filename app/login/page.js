@@ -52,16 +52,16 @@ const login = () => {
               Sign in with Google
             </button>
             <br />
-            <button
+            {/* <button
               className="signinbtn"
               type="button"
               onClick={() => signIn("github", { callbackUrl: "/" })}
             >
               Sign in with GitHub
-            </button>
+            </button> */}
           </form>
         </div>
-        <div className="right">
+        <div className="right1">
           <h1>Welcome to the Login Page</h1>
         </div>
       </div>

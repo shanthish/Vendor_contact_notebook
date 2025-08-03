@@ -14,6 +14,7 @@ export default async function VendorsPage() {
             {vendors.map((vendor) => (
                 <div key={vendor._id.toString()} className="vendor_card">
                     <h2>{vendor.name}</h2>
+                    <p><b>Id:</b> {vendor._id.toString()}</p>
                     <p><b>Category:</b> {vendor.category}</p>
                     <p><b>Email:</b> {vendor.email}</p>
                     <p>
